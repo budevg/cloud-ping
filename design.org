@@ -1,0 +1,16 @@
+
+* libs
+
+* main.cc
+  - parse arguments
+  - instance of CloudConnection
+  - instance of StatisticsGenerator
+  - instance of StatisticsReporter
+  - add conenctions to generator, apply actions on generator,
+    add response to reporter, report
+* cloud_conn
+  CloudStat
+  perform_get
+  perform_head
+* stat_gen
+* stat_report
